@@ -15,4 +15,4 @@ RUN pip install face_recognition \
     argparse \
     pickle-mixin \
     os-win
-RUN git clone https://github.com/MS2017009/SPE-Project.git
+RUN git clone https://github.com/rajatnituk/SPE-Project-Testing.git

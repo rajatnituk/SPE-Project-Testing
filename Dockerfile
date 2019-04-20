@@ -8,17 +8,16 @@ RUN apt-get update && apt-get install -y \
     python \
     python-pip \
     cmake \
-    virtualenv \
-    git
-RUN virtualenv SPE-testing \
-    source ./SPE-testing/bin/activate \
-RUN pip install face_recognition \
+    git 
+
+
+RUN pip -H install face_recognition \
     imutils \
     opencv-python \
     argparse \
     pickle-mixin \
     os-win \
-    flask \
-RUN git clone https://github.com/rajatnituk/SPE-Project-Testing.git
-RUN cd testing \
-    python testing.py
+    flask 
+
+RUN git clone https://github.com/rajatnituk/SPE-Project-Testing.git 
+RUN python testing.py

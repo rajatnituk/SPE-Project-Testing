@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y \
     git 
 
 
-RUN pip -H install face_recognition \
+RUN pip install face_recognition \
     imutils \
     opencv-python \
     argparse \

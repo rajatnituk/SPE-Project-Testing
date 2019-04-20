@@ -20,4 +20,5 @@ RUN pip install face_recognition \
     os-win \
     flask \
 RUN git clone https://github.com/rajatnituk/SPE-Project-Testing.git
-RUN python testing.py
+RUN cd testing \
+    python testing.py

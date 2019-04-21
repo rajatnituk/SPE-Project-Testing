@@ -21,5 +21,5 @@ RUN pip install face_recognition \
     flask
 RUN git clone https://github.com/rajatnituk/SPE-Project-testing.git
 RUN git clone https://github.com/rajatnituk/SPE-Pickle-file.git
-EXPOSE 5000
+EXPOSE 80
 CMD ["python","SPE-Project-testing/testing.py"]

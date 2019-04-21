@@ -11,7 +11,7 @@ def testing(image_name):
 	
 
 	ap = argparse.ArgumentParser()
-	ap.add_argument("-e", "--encodings", default="encoding.pickle",help="path to serialized db of facial encodings")
+	ap.add_argument("-e", "--encodings", default="SPE-Pickle-file/encoding.pickle",help="path to serialized db of facial encodings")
 	ap.add_argument("-i", "--image", default=image_name,help="path to input image")
 	ap.add_argument("-d", "--detection-method", type=str, default="cnn",help="face detection model to use: either `hog` or `cnn`")
 	args = vars(ap.parse_args())

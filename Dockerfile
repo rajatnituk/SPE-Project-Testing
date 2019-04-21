@@ -6,6 +6,7 @@ RUN apt-get update && apt-get install -y \
     python3.4 \
     libsm6 \
     libxext6 \
+    libxrender-dev \
     python3-pip \ 
     python \
     python-pip \

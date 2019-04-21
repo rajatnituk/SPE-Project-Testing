@@ -18,6 +18,3 @@ RUN pip install face_recognition \
     flask
 RUN git clone https://github.com/MS2017009/SPE-Project.git
 RUN git clone https://github.com/rajatnituk/SPE-Pickle-file.git
-RUN cd SPE-Pickle-file
-RUN rm -r dataset
-RUN rm training.py

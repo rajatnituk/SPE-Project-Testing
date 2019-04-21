@@ -16,5 +16,5 @@ RUN pip install face_recognition \
     pickle-mixin \
     os-win \
     flask
-RUN git clone https://github.com/MS2017009/SPE-Project.git
+RUN git clone https://github.com/rajatnituk/SPE-Project-testing.git
 RUN git clone https://github.com/rajatnituk/SPE-Pickle-file.git

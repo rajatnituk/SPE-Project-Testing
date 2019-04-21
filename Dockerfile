@@ -12,7 +12,7 @@ RUN apt-get update && apt-get install -y \
 RUN pip install face_recognition \
     imutils \
     libsm6 \
-    libxext6
+    libxext6 \
     opencv-python \
     argparse \
     pickle-mixin \

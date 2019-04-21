@@ -2,7 +2,9 @@ FROM ubuntu:18.04
 #install dependencies
 RUN apt-get update && apt-get install -y \
     software-properties-common
-RUN apt-get update && apt-get install -y \
+RUN apt-get update && apt-get install -y
+    libsm6 \
+    libxext6 \
     python3.4 \
     python3-pip \ 
     python \

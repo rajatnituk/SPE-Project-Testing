@@ -93,5 +93,5 @@ def upload():
 
 
 if __name__ == '__main__':
-    logging.basicConfig(filename='server.log',level=logging.DEBUG)
+    logging.basicConfig(filename='log/server.log',level=logging.DEBUG)
     app.run(debug=True,host="0.0.0.0")

@@ -18,7 +18,8 @@ RUN pip install face_recognition \
     argparse \
     pickle-mixin \
     os-win \
-    flask
+    flask \
+    logging
 RUN git clone https://github.com/rajatnituk/SPE-Project-testing.git
 RUN git clone https://github.com/rajatnituk/SPE-Pickle-file.git
 EXPOSE 5000

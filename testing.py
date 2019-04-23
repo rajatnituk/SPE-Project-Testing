@@ -3,6 +3,7 @@ import argparse
 import pickle
 import cv2
 import os
+import logging
 from flask import Flask,request, render_template, send_from_directory
 app = Flask(__name__)
 APP_ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -92,4 +93,5 @@ def upload():
 
 
 if __name__ == '__main__':
+    logging.basicConfig(filename='log/server.log',level=logging.DEBUG)
     app.run(debug=True,host="0.0.0.0")
